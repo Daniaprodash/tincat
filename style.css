@@ -1,0 +1,169 @@
+/*navbar*/
+#title {
+    background-color: rgb(241, 18, 48);
+
+}
+
+h1 {
+    font-family: 'montserrat-bold', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+.navbar-brand {
+    font-family: 'ubuntu', sans-serif;
+    font-size: 3rem;
+}
+
+.nav-link {
+    font-family: 'montserrat-bold', sans-serif;
+    margin: 0 18px;
+}
+
+body {
+    font-family: 'montserrat-bold', sans-serif;
+}
+
+.navbar {
+    padding-bottom: 4.5rem;
+}
+
+.btn {
+    margin: 5% 3% 5% 1%;
+}
+
+.title-img {
+    width: 55%;
+    transform: rotate(25deg);
+}
+
+/*features*/
+#features {
+    padding: 6.25rem 12.5rem;
+    position: relative;
+    z-index: 1;
+}
+
+.f-div {
+    text-align: center;
+}
+
+.f-h3 {
+    font-size: 2.4rem;
+}
+
+.f-p {
+    padding: 0 20%;
+    color: grey;
+}
+
+.f-icon {
+    margin-bottom: 2rem;
+    color: rgb(40, 38, 38);
+}
+
+.f-icon:hover {
+    color: rgb(241, 18, 48);
+}
+
+/*Testimonials*/
+#Testimonials {
+    background-color: rgb(241, 18, 48);
+    text-align: center;
+
+}
+
+.t-img {
+    width: 10%;
+    height: 10%;
+    border-radius: 100%;
+}
+
+/*press*/
+#press {
+    background-color: rgb(241, 18, 48);
+    text-align: center;
+}
+
+.press-img {
+    width: 15%;
+    margin: 1rem;
+}
+
+.t-h2 {
+    color: white;
+    font-family: 'montserrat-bold';
+    font-size: 3.5rem;
+    line-height: 4.5rem;
+    margin-bottom: 2rem;
+}
+
+.carousel-item {
+    padding: 12.5rem;
+}
+
+/*pricing*/
+#pricing {
+    padding: 7rem;
+    text-align: center;
+}
+
+.pricing-card {
+    padding: 3% 2%;
+    text-align: center;
+}
+
+.pricing-h2 {
+    font-size: 2.5rem;
+}
+
+.pricing-p {
+    color: gray;
+}
+
+.picing-btn:hover {
+    background-color: rgb(241, 18, 48);
+}
+
+/*action*/
+#cta {
+    padding: 7% 15%;
+    background-color: rgb(241, 18, 48);
+    text-align: center;
+}
+
+.cta-h3 {
+    font-size: 3.5rem;
+    color: white;
+    margin-bottom: 50px;
+}
+
+/*footer*/
+#footer {
+    padding: 2.5% 15%;
+    text-align: center;
+}
+
+.f-ico {
+    padding:  3% 1.5%;
+    color: black;
+}
+.f-ico:hover{
+    color: rgb(241, 18, 48);
+}
+
+@media (max-width:1000px) {
+    .title-img {
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+    
+}
