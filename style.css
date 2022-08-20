@@ -1,6 +1,6 @@
 /*navbar*/
 #title {
-    background-color: rgb(241, 18, 48);
+    background-color:#1f2633;
 
 }
 
@@ -37,6 +37,7 @@ body {
     margin: 5% 3% 5% 1%;
 }
 
+
 .title-img {
     width: 55%;
     transform: rotate(25deg);
@@ -64,16 +65,16 @@ body {
 
 .f-icon {
     margin-bottom: 2rem;
-    color: rgb(40, 38, 38);
+    color:#1f2633;
 }
 
 .f-icon:hover {
-    color: rgb(241, 18, 48);
+    color: #ffb647;
 }
 
 /*Testimonials*/
 #Testimonials {
-    background-color: rgb(241, 18, 48);
+    background-color:#1f2633;
     text-align: center;
 
 }
@@ -84,9 +85,13 @@ body {
     border-radius: 100%;
 }
 
+.t-em {
+    color: white;
+}
+
 /*press*/
 #press {
-    background-color: rgb(241, 18, 48);
+    background-color:#1f2633;
     text-align: center;
 }
 
@@ -127,13 +132,13 @@ body {
 }
 
 .picing-btn:hover {
-    background-color: rgb(241, 18, 48);
+    background-color: #ffb647;
 }
 
 /*action*/
 #cta {
     padding: 7% 15%;
-    background-color: rgb(241, 18, 48);
+    background-color: #1f2633;
     text-align: center;
 }
 
@@ -154,7 +159,7 @@ body {
     color: black;
 }
 .f-ico:hover{
-    color: rgb(241, 18, 48);
+    color: #ffb647;
 }
 
 @media (max-width:1000px) {
